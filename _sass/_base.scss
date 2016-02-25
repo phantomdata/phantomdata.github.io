@@ -9,16 +9,18 @@ a,a:visited {
 }
 
 header {
-  background-color: #384434;
-  border-bottom: 3px solid #D4D4D4;
+
   padding: 15px;
+  margin-bottom: 55px;
+  margin-top:55px;
   text-align:center;
 
   h1 {
     font-size: 3em;
+    font-weight:800;
   }
   a,a:visited {
-    color: #fff;
+    color: #DCDCDC;
     text-decoration: none;
   }
 
@@ -52,4 +54,8 @@ margin: auto;
 .muted {
   color: #969595;
   font-size:0.75em;
+}
+
+.signature {
+  text-align: right;
 }
