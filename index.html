@@ -9,5 +9,6 @@ layout: default
       <span class="muted">{{ post.date | date: '%B %d, %Y'}}
     </h1>
     {{ post.content }}
+    <a class="permalink" href="{{post.url}}">Permalink</a>
   </article>
 {% endfor %}

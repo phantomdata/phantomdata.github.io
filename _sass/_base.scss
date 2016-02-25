@@ -1,11 +1,27 @@
+body {
+  font-family: "Open Sans";
+  margin: 0px;
+  padding: 0px;
+}
+
+a,a:visited {
+  color: #5757BF;
+}
+
 header {
+  background-color: #384434;
+  border-bottom: 3px solid #D4D4D4;
+  padding: 15px;
+  text-align:center;
+
   h1 {
     font-size: 3em;
   }
   a,a:visited {
-    color: #0090FD;
+    color: #fff;
     text-decoration: none;
   }
+
 }
 
 h1 {
@@ -13,8 +29,18 @@ h1 {
 }
 
 h2 {
-  color: #000;
-  font-size: 1.5em;
+  color: #464545;
+  font-size: 1.3em;
+}
+
+p {
+  font: 18px/1.6 'Open Sans', sans-serif;
+}
+
+article {
+  .permalink {
+    text-align: right;
+  }
 }
 
 .content-container {
