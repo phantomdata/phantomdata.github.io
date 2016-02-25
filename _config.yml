@@ -1,0 +1,8 @@
+title: Phantomdata.com
+description: > # this means to ignore newlines until "baseurl:"
+  Phantomdata's personal wob site.
+
+url: "http://phantomdata.com"
+
+# Build settings
+markdown: kramdown
