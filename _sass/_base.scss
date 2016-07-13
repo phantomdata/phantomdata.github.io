@@ -35,8 +35,13 @@ h2 {
   font-size: 1.3em;
 }
 
+hr {
+  margin: 45px;
+}
+
 p {
-  font: 18px/1.6 'Open Sans', sans-serif;
+  font: 1em 'Open Sans', sans-serif;
+  line-height: 1.5em;
 }
 
 article {
@@ -44,6 +49,23 @@ article {
     text-align: right;
   }
 }
+
+.articles-list {
+  padding-left: 15px;
+  list-style-type: none;
+}
+  .articles-list li {
+    margin-bottom: 25px;
+  }
+  .articles-list .date {
+    color: #464545;
+    font-weight: bolder;
+  }
+  .articles-list .summary {
+    font-style: italic;
+  }
+
+
 
 .content-container {
 margin: auto;
