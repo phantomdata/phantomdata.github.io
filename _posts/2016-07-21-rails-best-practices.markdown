@@ -1,12 +1,14 @@
 ---
-title: phantomdata's Rails Guide
+title: phantomdata's Rails Best Practices
 author: Jordan T. Norlen
 date: 2016/07/21
-summary: A guide to rails development from a perspective of quality
+summary: A collection of Rails Best Practices and lessons hard learned over many years of doing Rails development
 layout: post
 ---
 
 # Why Another Guide?
+
+> The quickest way to permanent is temporary
 
 There are plenty of tutorials, books and videos on the subject of Rails and getting started.  Over my many years of development, I've learned that there's a hard difference between simply following a tutorial and actually learning what's going on with what you're doing.  Conversely, I've learned that there's a huge amount of intellectual masturbation that can go on if you dive too deeply.
 
