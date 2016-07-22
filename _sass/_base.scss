@@ -33,6 +33,18 @@ p, li {
   line-height: 1.5em;
   text-align: justify;
 }
+pre {
+  padding: 10px;
+}
+pre > code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+code.highlighter-rouge {
+  background-color: #f5ebd9;
+}
 
 article {
   h1 {
