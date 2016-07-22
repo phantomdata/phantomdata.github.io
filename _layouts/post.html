@@ -1,12 +1,16 @@
 ---
 layout: default
 ---
-
+<br/>
+<center>
+  <a href="/">Return to Index</a>
+</center>
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <h1>
+  <h1 class="title">
     {{ page.title }}
-    <span class="muted">{{ page.date | date: '%B %d, %Y'}}
   </h1>
+  <div class="header-date">{{ page.date | date: '%B %d, %Y'}}</div>
+
   {{ content }}
 
 </article>
